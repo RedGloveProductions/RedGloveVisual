@@ -1,0 +1,17 @@
+{
+  "slug": "RedGloveVisual",
+  "name": "RedGloveVisual",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "RedGlove",
+  "description": "Wide-format CV-driven visual instrument for VCV Rack.",
+  "author": "Joe Stem",
+  "modules": [
+    {
+      "slug": "GlassBridge",
+      "name": "Glass Bridge",
+      "description": "CV-driven visual instrument with dots, lines, particles, freeze, reset, and auto-fit camera.",
+      "tags": ["Visual", "Digital"]
+    }
+  ]
+}
