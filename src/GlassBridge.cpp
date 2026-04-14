@@ -721,21 +721,21 @@ struct GlassBridgeWidget : ModuleWidget {
         addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(12.0, 94.0)), module, GlassBridge::LINE_AMOUNT_PARAM));
         addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(12.0, 112.0)), module, GlassBridge::PARTICLE_AMOUNT_PARAM));
 
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 22.0)), module, GlassBridge::SIZE_AMOUNT_PARAM));
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 40.0)), module, GlassBridge::PERSISTENCE_AMOUNT_PARAM));
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 58.0)), module, GlassBridge::SPREAD_AMOUNT_PARAM));
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 76.0)), module, GlassBridge::COLOR_RESPONSE_PARAM));
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 94.0)), module, GlassBridge::PARTICLE_BLEND_PARAM));
-        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(231.84, 112.0)), module, GlassBridge::GLOW_AMOUNT_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 22.0)), module, GlassBridge::SIZE_AMOUNT_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 40.0)), module, GlassBridge::PERSISTENCE_AMOUNT_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 58.0)), module, GlassBridge::SPREAD_AMOUNT_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 76.0)), module, GlassBridge::COLOR_RESPONSE_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 94.0)), module, GlassBridge::PARTICLE_BLEND_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(228.0, 112.0)), module, GlassBridge::GLOW_AMOUNT_PARAM));
 
         addParam(createParamCentered<CKSSThree>(mm2px(Vec(27.0, 106.0)), module, GlassBridge::SAMPLE_MODE_PARAM));
-        addParam(createParamCentered<CKSSThree>(mm2px(Vec(216.84, 106.0)), module, GlassBridge::PARTICLE_SOURCE_PARAM));
+        addParam(createParamCentered<CKSSThree>(mm2px(Vec(213.0, 106.0)), module, GlassBridge::PARTICLE_SOURCE_PARAM));
 
         addParam(createParamCentered<LEDButton>(mm2px(Vec(27.0, 118.0)), module, GlassBridge::CLEAR_PARAM));
         addChild(createLightCentered<MediumLight<RedLight>>(mm2px(Vec(27.0, 118.0)), module, GlassBridge::CLEAR_LIGHT));
 
-        addParam(createParamCentered<LEDButton>(mm2px(Vec(216.84, 118.0)), module, GlassBridge::FREEZE_PARAM));
-        addChild(createLightCentered<MediumLight<BlueLight>>(mm2px(Vec(216.84, 118.0)), module, GlassBridge::FREEZE_LIGHT));
+        addParam(createParamCentered<LEDButton>(mm2px(Vec(213.0, 118.0)), module, GlassBridge::FREEZE_PARAM));
+        addChild(createLightCentered<MediumLight<BlueLight>>(mm2px(Vec(213.0, 118.0)), module, GlassBridge::FREEZE_LIGHT));
 
         float y = 121.0f;
         addInput(createInputCentered<PJ301MPort>(mm2px(Vec(48.0, y)), module, GlassBridge::X_INPUT));
@@ -746,7 +746,7 @@ struct GlassBridgeWidget : ModuleWidget {
         addInput(createInputCentered<PJ301MPort>(mm2px(Vec(153.0, y)), module, GlassBridge::MOD3_INPUT));
         addInput(createInputCentered<PJ301MPort>(mm2px(Vec(174.0, y)), module, GlassBridge::CLOCK_INPUT));
         addInput(createInputCentered<PJ301MPort>(mm2px(Vec(195.0, y)), module, GlassBridge::RESET_INPUT));
-        addInput(createInputCentered<PJ301MPort>(mm2px(Vec(216.0, y)), module, GlassBridge::FREEZE_INPUT));
+        addInput(createInputCentered<PJ301MPort>(mm2px(Vec(213.0, y)), module, GlassBridge::FREEZE_INPUT));
     }
 };
 
