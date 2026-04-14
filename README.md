@@ -6,7 +6,7 @@ It transforms CV signals into evolving particles, lines, and structures.
 
 ## Build
 
-export RACK_DIR="$HOME/Documents/Rack-SDK-2"
+export RACK_DIR="$HOME/Documents/Rack-SDK"
 make clean
 make dist
 

@@ -1,4 +1,4 @@
-RACK_DIR := /Users/joe/Documents/Rack-SDK-2
+RACK_DIR := /Users/captainstem/Documents/Rack-SDK
 
 SOURCES += src/plugin.cpp
 SOURCES += src/GlassBridge.cpp
