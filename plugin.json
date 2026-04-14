@@ -2,7 +2,7 @@
   "slug": "RedGloveVisual",
   "name": "RedGloveVisual",
   "version": "2.0.0",
-  "license": "proprietary",
+  "license": "MIT",
   "brand": "RedGlove",
   "description": "Wide-format CV-driven visual instrument for VCV Rack.",
   "author": "Joe Stem",
